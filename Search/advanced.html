@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+       <div>
+          <img class="left-logo" src="googlelogo.png">
+          <a class="right-header" href="index.html">Google Search</a>
+          <span class="advanced-title">Advanced Search</span>
+       </div>
+       <hr style="border: 1px solid #ebebeb;">
+       <div class="advanced-box">
+           <span style="font-size: 17px;">Find pages with...</span>
+            <span id="spn1"> To do this in the search box.</span>
+           <br><br>
+           <form action="https://google.com/search" name="f">
+               <div class="field">
+                   <label for="field1">all these words:</label>
+                   <input class="advanced-text-input" type="text" id="field1" value=""  name="as_q">
+                   <span class="spn2">Type the important words: tri-colour rat terrier</span>
+               </div>
+               <br>
+               <div class="field">
+                   <label for="field2">this exact word or phrase: </label>
+                   <input class="advanced-text-input" type="text" id="field2" value=""  name="as_epq">
+                   <span class="spn2">Put exact words in quotes: "rat terrier"</span>
+               </div>
+               <br>
+               <div class="field">
+                   <label for="field3">any of this words: </label>
+                   <input class="advanced-text-input" type="text" id="field3" value=""  name="as_oq">
+                   <span class="spn2">Type OR between all the words you want: miniature OR standard</span>
+               </div>
+               <br>
+               <div class="field">
+                   <label for="field4">none of these words: </label>
+                   <input class="advanced-text-input" type="text" id="field4"  name="as_eq">
+                   <span class="spn2">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+               </div>
+               <br>
+               <div id="buttun">
+                <input class="advanced-btn" type="submit" value="Advanced Search">
+               </div>
+           </form>
+
+       </div>
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,168 @@
+body{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+#index-header{
+    text-align: right;
+    margin: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.logo{
+    margin-top: 130px;
+    padding: 30px;
+    text-align: center;
+
+    text-align: center;
+    position: relative;
+}
+
+.search{
+    text-align: center;
+
+    position: relative;
+
+}
+
+.serach-bar{
+    display: flex; 
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 600px;
+    height: 40px;
+    max-width: 584px;
+    outline: none;
+    padding: 3px 20px;
+}
+
+.serach-bar:hover{
+    box-shadow:  0px 0px 5px rgba(118, 117, 117, 0.611);
+}
+
+
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+.btn:hover{
+    border-color: rgba(190, 187, 187, 0.611);
+    box-shadow: 0px 1px 1px rgba(190, 187, 187, 0.611);
+}
+
+input{
+    font-family: arial,sans-serif;
+    font-size: 16px;    
+}
+
+.imgsearch-heading{
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.right-header{
+    float: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.left-logo{
+    text-align: left;
+    height: auto;
+    width: 90px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.advanced-title{
+    color: #d93025;
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    margin-top: 15px;
+}
+
+.advanced-box{
+    padding: 30px;
+}
+
+#spn1{
+    margin-right: 30%;
+   float: right;
+    color: rgb(103, 101, 101);
+    position: sticky;
+}
+
+.spn2{
+    padding-left: 18px;
+    font-size: 12px;
+    font-family: arial,sans-serif
+}
+
+.field{
+    font-size: 14px;
+}
+
+#field1{
+    margin-left: 102px;
+}
+#field2{
+    margin-left: 40px;
+}
+#field3{
+    margin-left: 90px;
+}
+#field4{
+    margin-left: 67px;
+}
+
+.advanced-text-input{
+    font-family: arial,sans-serif;
+    margin: 10px;
+    padding: 6px 10px;
+    width: 40% ;
+    outline: none;
+}
+
+.advanced-btn{
+    height: 30px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    font-family: arial,sans-serif;
+    padding: 7px;
+}
+
+.advanced-btn:hover{
+    background-color: #3079ed;
+}
+
+#buttun{
+    text-align: center;
+}
